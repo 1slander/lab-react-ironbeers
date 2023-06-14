@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import { useParams, Link } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import Navbar from "../components/Navbar";
 const BeerDetails = (props) => {
  const [foundBeer,setFoundBeer]= useState({})
