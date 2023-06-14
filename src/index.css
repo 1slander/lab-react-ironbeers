@@ -4,6 +4,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-info{
@@ -71,3 +72,37 @@ body{
   text-decoration: none;
   color: black;
 }
+
+.single-beer{
+ display: flex;
+ flex-direction: column;
+ padding: 1em;
+ border: none;
+}
+
+.single-info-top,
+.single-info-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-info-top{
+  font-size: 1.4rem;
+  
+}
+
+.single-level{
+  font-weight: 700;
+  color: grey;
+}
+
+.single-date{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.single-text{
+  color: gray;
+}
+

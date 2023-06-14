@@ -9,7 +9,7 @@ const AllBeers = () => {
     try {
       const res = await fetch('https://ih-beers-api2.herokuapp.com/beers');
     const data = await res.json();
-    console.log(data)
+    
     return setBeers(data)
     } catch (error) {
       console.log(error)
