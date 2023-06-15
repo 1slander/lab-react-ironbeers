@@ -56,8 +56,8 @@ const NewBeer = () => {
   return (
     <div>
       <Navbar />
-      <h2>Add New Beer</h2>
-      <form onSubmit={handleSubmit}>
+      <h2 className="form-title">Add New Beer</h2>
+      <form onSubmit={handleSubmit} className="beer-form">
         <label>Name:</label>
         <input
           type="text"
@@ -74,6 +74,7 @@ const NewBeer = () => {
         />
         <label>Description:</label>
         <input
+          className="form-text"
           type="text"
           name="description"
           value={description}

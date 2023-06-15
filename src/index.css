@@ -1,44 +1,46 @@
-*,*::after,*::before{
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
 
-.card-info{
+.card-info {
   border: 1px solid black;
   margin: 1em;
   width: 90%;
 }
-.card-img{
+.card-img {
   width: 100%;
 }
-.card-body{
+.card-body {
   margin: 0.5em;
 }
 
-.home-link{
+.home-link {
   text-decoration: none;
   color: black;
 }
 
-.navbar{
+.navbar {
   width: 100%;
   text-align: center;
   background-color: #1a9bf8;
   padding: 1em;
 }
-.nav-link{
+.nav-link {
   color: white;
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.beer-card{
+.beer-card {
   border-bottom: 1px solid black;
   margin: 1em;
   display: flex;
@@ -46,18 +48,15 @@ body{
   align-items: center;
   gap: 1em;
   padding-bottom: 1em;
-  
-
 }
-.beer-title{
+.beer-title {
   font-size: 1.5rem;
-  
 }
-.beer-subtitle{
+.beer-subtitle {
   color: gray;
   font-size: 1em;
 }
-.beer-text{
+.beer-text {
   font-size: 0.75em;
 }
 
@@ -65,50 +64,83 @@ body{
   font-weight: 700;
 }
 
-.beer-img{
+.beer-img {
   width: 70px;
 }
 
-.beer-link{
+.beer-link {
   text-decoration: none;
   color: black;
 }
 
-.single-beer{
- display: flex;
- flex-direction: column;
- padding: 1em;
- border: none;
+.single-beer {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border: none;
 }
 
 .single-info-top,
-.single-info-bottom{
+.single-info-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.single-info-top{
+.single-info-top {
   font-size: 1.4rem;
-  
 }
 
-.single-level{
+.single-level {
   font-weight: 700;
   color: grey;
 }
 
-.single-date{
+.single-date {
   font-size: 0.85rem;
   font-weight: 700;
 }
 
-.single-text{
+.single-text {
   color: gray;
 }
 
-.single-description{
-  
+.single-description {
   text-align: justify;
 }
 
+.beer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  border: 1px solid black;
+  padding: 2em 1em;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.form-title {
+  text-align: center;
+}
+.form-text {
+  height: 100px;
+}
+.beer-form > button {
+  margin-top: 2em;
+  align-self: center;
+  padding: 1.2em 2.4em;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  background-color: #1a9bf8;
+  color: white;
+  cursor: pointer;
+}
+
+.beer-form > button:hover,
+.beer-form > button:focus {
+  background-color: #105a8f;
+}
